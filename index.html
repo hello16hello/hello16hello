@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather</title>
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="meteo.js"></script>
+    <style>
+    body{
+  background: url('h.jpg') ;
+background-size: cover;
+
+}
+
+
+</style>
+  </head>
+  <body>
+
+    <nav  background: linear-gradient(to bottom, #666699 0%, #999966 100%);>
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="c.png" alt="logo" style="width:50px;"><b><i>my weather</i></b>
+  </a>
+
+  <!-- Links -->
+
+
+</nav>
+
+<div align="center" top="100%">
+
+    <input type="text"   placeholder="city name" id="queryLoc"  />
+   <input type="button" value="search"  onclick="buttonClickGET()"  />
+  <div class="card bg-green text-dark" width="40%">
+      <div class="card-body"> <p id="zone_meteo" color="red"></p></div></div>
+      <p id="zone_meteo" color="red"></p></div></div>
+
+  </body>
+</html>
